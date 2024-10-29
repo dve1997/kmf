@@ -1,0 +1,273 @@
+.kmf {
+  // .kmf__footer
+
+  &__footer {
+    width: 170%;
+    transform: translateX(-20.5%);
+    background-color: #c6d9dd;
+    overflow: hidden;
+    padding: 4% 0;
+  }
+
+  &__obj-footer {
+    width: 100%;
+    max-width: 68.75rem;
+    margin: 0 auto;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 6.25rem;
+
+  // .footer__item-label
+
+  &__item-label {
+    display: flex;
+    flex-direction: column;
+    gap: 1.87rem;
+  }
+
+  // .footer__item-links
+
+  &__item-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.87rem;
+  }
+}
+.label {
+  // .label__logo
+
+  &__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.93rem;
+  }
+
+  // .label__social-media
+
+  &__social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.62rem;
+  }
+}
+.links {
+  // .links__portal
+
+  &__portal {
+    & > h6 {
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.21rem;
+      margin: 0 0 0.62rem 0;
+    }
+
+    & > a {
+      color: #32334c;
+      display: block;
+      font-weight: 400;
+      font-size: 0.87rem;
+      line-height: 1.05rem;
+      margin: 0 0 0.62rem 0;
+      text-decoration: none;
+    }
+
+    & > a:hover {
+      color: #9d097c;
+    }
+  }
+
+  // .links__education
+
+  &__education {
+    & > h6 {
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.21rem;
+      margin: 0 0 0.62rem 0;
+    }
+
+    & > a {
+      color: #32334c;
+      display: block;
+      font-weight: 400;
+      font-size: 0.87rem;
+      line-height: 1.05rem;
+      margin: 0 0 0.62rem 0;
+      text-decoration: none;
+    }
+
+    & > a:hover {
+      color: #9d097c;
+    }
+  }
+
+  // .links__business
+
+  &__business {
+    & > h6 {
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.21rem;
+      margin: 0 0 0.62rem 0;
+    }
+
+    & > a {
+      color: #32334c;
+      display: block;
+      font-weight: 400;
+      font-size: 0.87rem;
+      line-height: 1.05rem;
+      margin: 0 0 0.62rem 0;
+      text-decoration: none;
+    }
+
+    & > a:hover {
+      color: #9d097c;
+    }
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .kmf {
+    // .kmf__footer
+
+    &__footer {
+      width: 180%;
+      transform: translateX(0);
+      margin: -10.62rem 0 0 0;
+      padding: 5% 4% 20%;
+    }
+
+    &__obj-footer {
+      width: 100%;
+      max-width: 20.5rem;
+      margin: 0;
+    }
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    // .footer__item-label
+
+    &__item-label {
+      display: flex;
+      flex-direction: row;
+      gap: 3.43rem;
+    }
+
+    // .footer__item-links
+
+    &__item-links {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.62rem;
+    }
+  }
+  .label {
+    // .label__logo
+
+    &__logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.93rem;
+    }
+
+    // .label__social-media
+
+    &__social-media {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0.62rem;
+    }
+  }
+  .links {
+    // .links__portal
+
+    &__portal {
+      & > h6 {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.21rem;
+        margin: 0 0 0.31rem 0;
+      }
+
+      & > a {
+        color: #32334c;
+        display: block;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 1.05rem;
+        margin: 0 0 0.31rem 0;
+        text-decoration: none;
+      }
+
+      & > a:hover {
+        color: #9d097c;
+      }
+    }
+
+    // .links__education
+
+    &__education {
+      & > h6 {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.21rem;
+        margin: 0 0 0.31rem 0;
+      }
+
+      & > a {
+        color: #32334c;
+        display: block;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 1.05rem;
+        margin: 0 0 0.31rem 0;
+        text-decoration: none;
+      }
+
+      & > a:hover {
+        color: #9d097c;
+      }
+    }
+
+    // .links__business
+
+    &__business {
+      & > h6 {
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.21rem;
+        margin: 0 0 0.31rem 0;
+      }
+
+      & > a {
+        color: #32334c;
+        display: block;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 1.05rem;
+        margin: 0 0 0.31rem 0;
+        text-decoration: none;
+      }
+
+      & > a:hover {
+        color: #9d097c;
+      }
+    }
+  }
+}

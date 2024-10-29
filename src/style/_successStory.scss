@@ -1,0 +1,255 @@
+.kmf {
+  // .kmf__success-story
+
+  &__success-story {
+    width: 170%;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-20.5%);
+    background-color: #c6d9dd;
+    border-radius: 2.5rem;
+    margin: 0 0 1.25rem 0;
+    overflow: hidden;
+    padding: 9% 0;
+  }
+
+  // .kmf__obj
+
+  &__obj {
+    max-width: 68.75rem;
+    margin: 0 auto;
+  }
+
+  // .kmf__anons
+
+  &__anons {
+    width: 40%;
+    color: #db2d8f;
+    background: linear-gradient(45deg, #db2d8f 1%, #2d1178 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.47rem;
+    margin: 0 0 0.93rem 0;
+  }
+
+  // .kmf__title-anons
+
+  &__title-anons {
+    width: 60%;
+    color: #32334c;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+    margin: 0 0.93rem 0 0;
+  }
+
+  // .kmf__media
+
+  &__media {
+    transform: translate(50%, -20%);
+
+    & > img {
+      border-radius: 1.17rem;
+    }
+  }
+
+  // .kmf__anonsOne
+
+  &__anonsOne {
+    transform: translate(70%, 0);
+  }
+
+  // .kmf__anonsTwo
+
+  &__anonsTwo {
+    transform: translate(15%, -175%);
+  }
+
+  // .kmf__anonsThree
+
+  &__anonsThree {
+    transform: translate(40%, -60%);
+  }
+
+  // .kmf__anonsFour
+
+  &__anonsFour {
+    transform: translate(-210%, 110%);
+  }
+
+  // .kmf__anonsFive
+
+  &__anonsFive {
+    transform: translate(-619%, -130%);
+  }
+
+  // .kmf__anonsSix
+
+  &__anonsSix {
+    transform: translate(-445%, 0);
+  }
+
+  // .kmf__desc-anonsOne
+
+  &__desc-anonsOne {
+    width: 40%;
+    margin: -12.5rem 0 0.93rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.37rem;
+  }
+
+  // .kmf__desc-anonsTwo
+
+  &__desc-anonsTwo {
+    width: 40%;
+    margin: 0 0 2.81rem 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.37rem;
+  }
+
+  // .kmf__btn-more-details-anons
+
+  &__btn-more-details-anons {
+    width: 35%;
+    background-color: #c6d9dd;
+    color: #9d097c;
+    border: 0.06rem solid #9d097c;
+    border-radius: 1.87rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.19rem;
+    text-align: center;
+    padding: 1% 3%;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &__btn-more-details-anons:hover {
+    color: white;
+    background-color: #9d097c;
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .kmf {
+    // .kmf__success-story
+
+    &__success-story {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(0);
+      padding: 5%;
+    }
+
+    // .kmf__obj
+
+    &__obj {
+      max-width: 20.5rem;
+      margin: 0 auto;
+    }
+
+    // .kmf__anons
+
+    &__anons {
+      width: 100%;
+    }
+
+    // .kmf__title-anons
+
+    &__title-anons {
+      width: 100%;
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2.62rem;
+      margin: 0 0 0.93rem 0;
+    }
+
+    // .kmf__media
+
+    &__media {
+      transform: translate(0, 0);
+      margin: 0 0 0.93rem 0;
+
+      & > img {
+        border-radius: 1rem;
+      }
+    }
+
+    // .kmf__anonsOne
+
+    &__anonsOne {
+      transform: translate(45%, 70%);
+      width: 9.37rem;
+      height: 6.25rem;
+    }
+
+    // .kmf__anonsTwo
+
+    &__anonsTwo {
+      transform: translate(-70%, -45%);
+      width: 5rem;
+      height: 5rem;
+    }
+
+    // .kmf__anonsThree
+
+    &__anonsThree {
+      transform: translate(275%, -40%);
+      width: 5rem;
+      height: 5rem;
+    }
+
+    // .kmf__anonsFour
+
+    &__anonsFour {
+      transform: translate(-5%, 90%);
+      width: 5rem;
+      height: 5rem;
+    }
+
+    // .kmf__anonsFive
+
+    &__anonsFive {
+      transform: translate(-270%, -140%);
+      width: 4rem;
+      width: 4rem;
+    }
+
+    // .kmf__anonsSix
+
+    &__anonsSix {
+      transform: translate(-40%, -130%);
+      width: 6.25rem;
+      height: 4rem;
+    }
+
+    // .kmf__desc-anonsOne
+
+    &__desc-anonsOne {
+      width: 100%;
+      margin: 0;
+    }
+
+    // .kmf__desc-anonsTwo
+
+    &__desc-anonsTwo {
+      width: 100%;
+      margin: 0;
+      margin: 0 0 0.93rem;
+    }
+
+    // .kmf__btn-more-details-anons
+
+    &__btn-more-details-anons {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 1% 0;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import '_fonts';
+@import '_header';
+@import '_sliderBanner';
+@import '_infOfProgram';
+@import '_successStory';
+@import '_business';
+@import '_education';
+@import '_news';
+@import '_footer';
+
+.kmf {
+  // .kmf__wrapper
+
+  &__wrapper {
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--font-family-gilroy);
+    color: #32334c;
+    overflow: hidden;
+  }
+
+  // .kmf__indent
+
+  &__indent {
+    max-width: 71.37rem;
+    padding: 0 0.62rem;
+    margin: 0 auto;
+  }
+
+  // .kmf__container
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    max-width: 69.37rem;
+    margin: 0 auto;
+  }
+
+  &__main {
+    grid-column: 1/13;
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .kmf__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.31rem;
+  }
+
+  .kmf__indent {
+    max-width: 20.5;
+    padding: 0;
+    margin: 0;
+  }
+
+  .kmf__main {
+    grid-column: 1/7;
+  }
+}
